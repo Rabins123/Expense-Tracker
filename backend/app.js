@@ -15,7 +15,7 @@ app.use(cors())
 //routes
 
 // adding new 
-app.get('/', (req, res) => {
+app.get('./', (req, res) => {
     res.send('Hello from /api/hello');
   });
 
